@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Renzo Talain — Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap"
+        rel="stylesheet" />
+</head>
+
+<body>
+
+    <nav id="navbar">
+        <div class="nav-logo">Emerging Technologies 1</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="menu-toggle" id="menuToggle">&#9776;</button>
+    </nav>
+
+    <section id="hero">
+        <div class="hero-content">
+            <p class="hero-label">Greetings, My Name Is</p>
+            <h1 class="hero-name">Renzo Isaiah De Vera Talain</h1>
+            <h2 class="hero-role">Computer Engineering Student<span class="hero-amp">&</span> Designer</h2>
+            <p class="hero-desc">
+                I study different Programming Languages,
+                Computer Troubleshooting, Computer Networks,
+                and Robotics Engineering in Technological
+                Institute of the Philippines - Manila.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">See My Work</a>
+                <a href="#contact" class="btn btn-outline">Get In Touch</a>
+            </div>
+        </div>
+        <div class="hero-blob"></div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <span class="section-label">About Me</span>
+            <h2 class="section-title">Who I Am</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        I'm a passionate developer who loves turning ideas into reality through code.
+                        I specialize in building responsive websites and web applications with a focus on
+                        clean code and great user experience.
+                    </p>
+                    <p>
+                        When I'm not doing anything coding related, I always wind down by playing
+                        video games, play music (especially guitar), and sometimes, build LEGOs.
+                    </p>
+                    <a href="#" class="btn btn-primary" download>Download CV</a>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <span class="stat-number">4+</span>
+                        <span class="stat-label">Months Experience</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">3+</span>
+                        <span class="stat-label">Projects Done</span>
+                    </div>
+                    <div class="stat-card">
+                        <span class="stat-number">3+</span>
+                        <span class="stat-label">Technologies</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills">
+        <div class="container">
+            <span class="section-label">What I Know</span>
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+
+                <div class="skill-card">
+                    <div class="skill-icon">&#60;/&#62;</div>
+                    <h3>HTML & CSS</h3>
+                    <p>Semantic markup, responsive layouts, Flexbox, CSS Grid, animations.</p>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-width="90%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">JS</div>
+                    <h3>JavaScript</h3>
+                    <p>DOM manipulation, ES6+, async/await, fetch API, event handling.</p>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-width="80%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">&#9881;</div>
+                    <h3>React</h3>
+                    <p>Components, hooks, state management, React Router, Context API.</p>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-width="70%"></div>
+                    </div>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">&#128196;</div>
+                    <h3>Git & GitHub</h3>
+                    <p>Version control, branching, pull requests, GitHub Pages deployment.</p>
+                    <div class="skill-bar">
+                        <div class="skill-fill" data-width="75%"></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <span class="section-label">My Work</span>
+            <h2 class="section-title">Projects</h2>
+            <div class="projects-grid">
+
+                <div class="project-card">
+                    <div class="project-img" style="background: linear-gradient(135deg, #667eea, #764ba2);">
+                        <span class="project-tag">Web App</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Project One</h3>
+                        <p></p>
+                        <div class="project-tech">
+                            <span>React</span><span>Node.js</span><span>MongoDB</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="btn btn-sm">Live Demo</a>
+                            <a href="#" target="_blank" class="btn btn-sm btn-ghost">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img" style="background: linear-gradient(135deg, #f093fb, #f5576c);">
+                        <span class="project-tag">UI Design</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Project Two</h3>
+                        <p></p>
+                        <div class="project-tech">
+                            <span>HTML</span><span>CSS</span><span>JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="btn btn-sm">Live Demo</a>
+                            <a href="#" target="_blank" class="btn btn-sm btn-ghost">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-img" style="background: linear-gradient(135deg, #4facfe, #00f2fe);">
+                        <span class="project-tag">Tool</span>
+                    </div>
+                    <div class="project-info">
+                        <h3>Project Three</h3>
+                        <p></p>
+                        <div class="project-tech">
+                            <span>Vue.js</span><span>Firebase</span><span>CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" target="_blank" class="btn btn-sm">Live Demo</a>
+                            <a href="#" target="_blank" class="btn btn-sm btn-ghost">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <span class="section-label">Reach Out</span>
+            <h2 class="section-title">Contact Me</h2>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <p>I'm currently open to freelance opportunities and collaborations. Feel free to reach out!</p>
+                    <div class="contact-item">
+                        <span class="contact-icon">&#9993;</span>
+                        <span>renzoisaiahtalain20@email.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="contact-icon">&#127760;</span>
+                        <span>Manila, Philippines</span>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" target="_blank">GitHub</a>
+                        <a href="#" target="_blank">LinkedIn</a>
+                        <a href="#" target="_blank">Twitter</a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <input type="text" placeholder="Your Name" required />
+                    <input type="email" placeholder="Your Email" required />
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message &#8594;</button>
+                    <p class="form-note" id="formNote"></p>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>Designed & Built by <strong>Renzo Isaiah Talain</strong> &copy; 2025</p>
+        <p class="footer-sub">Made with HTML, CSS & JavaScript</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
