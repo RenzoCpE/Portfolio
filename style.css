@@ -1,9 +1,3 @@
-/* =========================================
-   STARK INDUSTRIES PORTFOLIO
-   Orbitron (headings) + Exo 2 (body)
-   Color palette: Deep black, Iron Red, Gold
-   ========================================= */
-
 :root {
   --clr-bg:        #050508;
   --clr-surface:   #0a0a10;
@@ -38,7 +32,6 @@ body {
 
 a { text-decoration: none; color: inherit; }
 
-/* ---- SCANLINES OVERLAY ---- */
 .scanlines {
   position: fixed;
   inset: 0;
@@ -53,7 +46,6 @@ a { text-decoration: none; color: inherit; }
   );
 }
 
-/* ---- CORNER BRACKETS ---- */
 .corner {
   position: fixed;
   width: 40px;
@@ -66,11 +58,10 @@ a { text-decoration: none; color: inherit; }
 .corner-bl { bottom: 16px; left: 16px; border-bottom: 2px solid var(--clr-gold); border-left: 2px solid var(--clr-gold); }
 .corner-br { bottom: 16px; right: 16px; border-bottom: 2px solid var(--clr-gold); border-right: 2px solid var(--clr-gold); }
 
-/* ---- UTILITY ---- */
+
 .container { max-width: 1100px; margin: 0 auto; padding: 0 2rem; }
 section { padding: 100px 0; }
 
-/* ---- SECTION HEADER ---- */
 .section-header { margin-bottom: 3.5rem; }
 .section-label {
   font-family: var(--font-head);
@@ -97,7 +88,6 @@ section { padding: 100px 0; }
   margin-top: 1rem;
 }
 
-/* ---- BUTTONS ---- */
 .btn {
   display: inline-block;
   padding: 12px 28px;
@@ -158,9 +148,6 @@ section { padding: 100px 0; }
 }
 .btn-ghost:hover { border-color: var(--clr-gold); color: var(--clr-gold); }
 
-/* ================================================
-   NAVBAR
-   ================================================ */
 #navbar {
   position: fixed;
   top: 0; left: 0; right: 0;
@@ -190,7 +177,6 @@ section { padding: 100px 0; }
 }
 .logo-sub { color: var(--clr-red); font-size: 0.85em; }
 
-/* Mini arc reactor in nav */
 .arc-reactor-mini {
   width: 20px; height: 20px;
   border-radius: 50%;
@@ -220,9 +206,6 @@ section { padding: 100px 0; }
   padding: 4px 8px;
 }
 
-/* ================================================
-   HERO
-   ================================================ */
 #hero {
   min-height: 100vh;
   display: flex;
@@ -305,7 +288,6 @@ section { padding: 100px 0; }
 
 .hero-buttons { display: flex; gap: 1rem; flex-wrap: wrap; }
 
-/* ARC REACTOR (hero decoration) */
 .hero-arc {
   position: absolute;
   right: 8%;
@@ -364,9 +346,6 @@ section { padding: 100px 0; }
   pointer-events: none;
 }
 
-/* ================================================
-   ABOUT
-   ================================================ */
 #about { background: var(--clr-surface); }
 
 .about-grid {
@@ -425,9 +404,6 @@ section { padding: 100px 0; }
   font-family: var(--font-head);
 }
 
-/* ================================================
-   SKILLS
-   ================================================ */
 .skills-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -519,9 +495,6 @@ section { padding: 100px 0; }
   box-shadow: 0 0 8px var(--clr-gold-glow);
 }
 
-/* ================================================
-   PROJECTS
-   ================================================ */
 #projects { background: var(--clr-surface); }
 
 .projects-grid {
@@ -611,9 +584,6 @@ section { padding: 100px 0; }
 
 .project-links { display: flex; gap: 10px; }
 
-/* ================================================
-   CONTACT
-   ================================================ */
 .contact-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -686,9 +656,6 @@ section { padding: 100px 0; }
 
 .form-note { font-size: 12px; color: var(--clr-gold); font-family: var(--font-head); letter-spacing: 0.1em; }
 
-/* ================================================
-   FOOTER
-   ================================================ */
 footer {
   background: var(--clr-surface);
   text-align: center;
@@ -711,9 +678,6 @@ footer {
 footer p { color: var(--clr-muted); font-size: 13px; }
 footer .footer-sub { font-size: 11px; font-family: var(--font-head); letter-spacing: 0.1em; margin-top: 0.5rem; color: var(--clr-red); }
 
-/* ================================================
-   ANIMATIONS
-   ================================================ */
 @keyframes fadeUp {
   from { opacity: 0; transform: translateY(30px); }
   to   { opacity: 1; transform: translateY(0); }
@@ -734,9 +698,6 @@ footer .footer-sub { font-size: 11px; font-family: var(--font-head); letter-spac
 }
 .reveal.visible { opacity: 1; transform: translateY(0); }
 
-/* ================================================
-   RESPONSIVE
-   ================================================ */
 @media (max-width: 768px) {
   #navbar { padding: 1.2rem 1.5rem; }
   .nav-links {
